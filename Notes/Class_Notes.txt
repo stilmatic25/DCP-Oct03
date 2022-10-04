@@ -1,0 +1,250 @@
+
+Software Development Life Cycle ?
+
+How the software is developed & delivered/Deployed ?
+
+E-Commerce -- www.amazon.com --- this a web application!
+
+Developer!
+DevOps Engineer!
+
+Req. Analysis
+Design
+Development/Code
+Test
+Deployed
+
+
+Application:
+
+- Monolith Applications!
+
+Register - Sign-up
+Login
+search for products
+add the products to carts
+place the order
+payment 
+confirm the order
+Tracking the order
+
+
+- Microservices
+
+Register - Sign-up
+Login
+search for products
+add the products to carts
+place the order -------------> build/perform unit testing!
+payment 
+confirm the order
+Tracking the order
+
+
+Telecom Domain: 
+
+service provider 1 -- > introduce a new offer
+
+DevOps
+
+service provider 2 -- > introduce a new offer
+
+
+
+
+Software development and Release 
+
+Developers develop the code ---->
+
+Testing Team will test the code ---->
+
+Released
+
+DevOps 
+
+
+CI / CD - CD
+
+
+Environments??
+
+
+Servers 
+
+Development Envrionment ---> to do the code development Java Web Application -
+
+Build Environment ---> Used to build the application and create artifacts.(binaries) *.war/*.jar/*.dll
+
+Testing Environment ---> Actually test the Application.
+	QA / UAT / Pre-Prod / Staging
+
+Production Environment
+*.war/*.jar.v1.1
+
+
+Non-Prod Environment:
+DEV /--> QA /--> UAT /--> Pre-Prod / Staging
+
+DEV 
+
+
+Prod Environment:
+Prod
+
+Infra-structure Team:
+
+
+DevOps 
+
+CI -
+
+C.Delivery - is automated in non-prod environments
+
+C.Deployment - is automated in throughout non-prod & Prod environments
+ 
+
+All about :
+
+People
+Process
+Tools 
+
+
+ALM -- used to track end-to-end project activities...
+
+Continouous Monitoring ? for Continuous Improvement!
+
+Monitor the network, Hacking 
+
+
+
+Day-2:
+
+Version Control System -
+
+Continuous Development -
+
+Development tools like IDE - Eg.: Eclipse, Visual studio Code
+
+Use the IDE to develop the code.
+
+index.html
+
+<>
+<>
+
+saved in his whole machine.
+
+All that I need is a common repository or a system where I can save my source code and share it with other developers
+
+It is also needed to track the changes.
+
+Version Control System!
+
+index.html ---> version v1.0
+index.html ---> version v1.2
+index.html ---> version v1.3
+index.html ---> version v1.4
+
+prod. deployment
+
+Distributed version control system:
+
+GIT :::
+
+file1.txt
+rec1
+rec2
+rec3
+
+save - file1.txt -- v1.0
+rec4
+rec5
+
+save - file1.txt -- v1.2
+save - file1.txt -- 
+
+
+d:/folder/file1.txt   ---> physical Location ( workspace )
+
+git repository!
+
+can be version controlled!
+
+Installation!
+
+Local Machine... Visual Studio code (IDE), GIT.
+
+AWS - Create a virtual Machine (linux) and install git.
+
+
+
+
+Workspace
+
+f1.txt
+f2.txt
+
+f3.txt
+f4.txt
+
+Staging Area
+
+f1.txt
+f2.txt
+f3.txt
+f4.txt
+
+Local Repo.
+
+f1.txt
+f2.txt
+
+git push 
+
+Remote Repo.
+
+f1.txt
+f2.txt
+
+
+
+Git fetch ---> updates the local repo. + git checkout
+
+git pull  ---> Updates the local Repo. as well as workspace
+
+git pull ==> git fetch & git checkout
+
+
+
+
+
+Developer A ---> created 10 files f1.txt ----- f10.txt   ---> pushed all these files to remote repo.
+
+
+Developer B ---> git pull  (local repo & workspace)
+
+            ---> git fetch (local repo with all the changes from remote) 
+
+	         git checkout (f1,f2,f3)
+
+		 git add f1.txt
+		 git commit 
+		 git push 
+	
+
+
+
+
+git:
+
+clone
+add
+commit
+push
+pull
+fetch
+
+Remote Repository :::
+
+www.github.com
