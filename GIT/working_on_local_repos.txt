@@ -91,3 +91,32 @@ scenario 5: ignoring some files in a git repository permanently ( .gitignore )
 		hidden files can not be listed with normal ls -ltr command -- to see hidden files do "ls -al"
 
 ===================================================================================================================
+
+#stash Command:
+
+Stash current work:
+$ git stash
+
+Saving stashes with a message: 
+$ git stash save "<Stashing Message>"
+
+Check the stored stashes: 
+$ git stash list
+
+Re-apply the changes that you just stashed 
+$ git stash apply
+
+Track the stashes and their changes: 
+$ git stash show
+
+Re-apply the previous commits: 
+$ git stash pop
+
+Delete a most recent stash from the queue: 
+$ git stash drop
+
+Delete all the available stashes at once: 
+$ git stash clear
+
+Stash work on a separate branch: 
+$ git stash branch <branch name>
